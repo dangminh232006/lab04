@@ -6,12 +6,6 @@ last modified: 07/10/2026
 description: Styles for lab04.html (COS10026 Week 04 Lab Exercise - Apply CSS)
 */
 
-/*
-GenAI acknowledgement: these rules were written with Claude (Anthropic, Claude Opus 5.5,
-October 2026), following the steps of the Week 04 lab sheet. Prompt (translated from
-Vietnamese): "Do Week 04: Lab Exercise (2%) - Apply CSS for me".
-*/
-
 /* Step 4 - universal element selector: default font for every element on the page */
 * {
     font-family: calibri, sans-serif;
