@@ -6,6 +6,8 @@ COS10026 Web Technology Project · Week 04 lab exercise.
 `styles/lab04.css`, which uses element, group, ID, class, contextual and pseudo-class selectors.
 The CSS passes the W3C CSS Validation Service with no errors.
 
-Live page: https://dangminh232006.github.io/lab04/lab04.html
+`index.html` is an identical copy of `lab04.html`, so the site root shows the styled page.
+
+Live page: https://dangminh232006.github.io/lab04/ (also https://dangminh232006.github.io/lab04/lab04.html)
 
 Bui Dang Minh (105716425)
