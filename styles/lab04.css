@@ -94,5 +94,5 @@ aside:hover {
 /* Pseudo class: menu items get a light blue background and a dark blue border on hover */
 nav a:hover {
     background-color: lightblue;
-    border-color: darkblue;
+    border: 4px solid darkblue;
 }
