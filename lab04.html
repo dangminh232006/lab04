@@ -6,7 +6,11 @@
   <meta name="keywords" content="HTML5, tags" />
   <meta name="author" content="A Lecturer"  />
   <title>HTML Structure and Content Elements + CSS</title>
-  
+  <!-- Step 2: link the external style sheet styles/lab04.css -->
+  <link href="styles/lab04.css" rel="stylesheet" />
+  <!-- GenAI acknowledgement: the CSS link, the id and the class attributes on this page were added with
+       Claude (Anthropic, Claude Opus 5.5, October 2026), following the Week 04 lab sheet.
+       Prompt (translated from Vietnamese): "Do Week 04: Lab Exercise (2%) - Apply CSS for me". -->
 </head>
 <!-- This is a comment. Indenting child elements makes the markup much more readable -->
 <body>
@@ -30,7 +34,7 @@
       </aside>
       <h2 id="headings">Headings and Paragraphs </h2>
       <p>Headings and paragraphs are BLOCK elements</p>
-      <h3>Headings</h3>
+      <h3 id="headings-level3">Headings</h3>
       <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, don't change its level - change the CSS.</p>
       <h3>Paragraphs</h3>
       <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.</p>
@@ -94,13 +98,13 @@
         </thead>
         <tbody>
          <tr>
-           <th scope="row">Jan</th>
+           <th scope="row" class="month">Jan</th>
            <td>$60</td>
            <td>$40</td>
            <td>$100</td>
          </tr>
          <tr>
-           <th scope="row">Feb</th>
+           <th scope="row" class="month">Feb</th>
            <td>$40</td>
            <td>$40</td>
            <td>$80</td>
